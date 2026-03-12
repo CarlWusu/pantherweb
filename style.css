@@ -270,6 +270,7 @@ body {
   font-weight: 700;
   color: var(--royal-blue);
   min-height: 1.2em;
+  white-space: nowrap;
 }
 
 .cursor {
