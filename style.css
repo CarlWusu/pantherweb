@@ -30,7 +30,6 @@ body {
   z-index: 50;
   background: rgba(255,255,255,0.95);
   backdrop-filter: blur(6px);
-  border-bottom: 1px solid var(--border-subtle);
 }
 
 .navbar-inner {
@@ -60,7 +59,7 @@ body {
 }
 
 .navbar-logo {
-  height: 2rem;
+  height: 3rem;
   width: auto;
   display: block;
   /* shift the image's darker blue toward --royal-blue (#4169e1) */
