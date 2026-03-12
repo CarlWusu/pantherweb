@@ -27,8 +27,7 @@ function buildNavbar() {
   navbar.innerHTML = `
     <div class="navbar-inner">
       <a href="index.html" class="navbar-brand">
-        <img src="pwebicon.png" alt="" class="navbar-logo" aria-hidden="true" />
-        PantherWeb
+        <img src="pwebicon.png" alt="PantherWeb" class="navbar-logo" />
       </a>
       <ul class="navbar-links">${desktopLinks}</ul>
       <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
