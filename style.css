@@ -200,9 +200,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 2rem;
-  padding: 4rem 1rem 4rem;
+  padding: 6rem 1rem 4rem;
   text-align: center;
 }
 
@@ -585,6 +585,20 @@ body {
 @media (max-width: 767px) {
   .navbar-links { display: none; }
   .hamburger { display: flex; }
+
+  .navbar-inner {
+    height: 5rem;
+    padding: 0 1rem;
+  }
+
+  .navbar-logo { height: 3.5rem; }
+
+  .page { padding-top: 5rem; }
+
+  .mobile-menu { top: 5rem; }
+  .nav-backdrop { top: 5rem; }
+
+  .hero { min-height: calc(100svh - 5rem); }
 }
 
 /* ── Mobile (≤ 600px) ── */
