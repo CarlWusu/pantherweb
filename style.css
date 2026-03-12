@@ -35,7 +35,7 @@ body {
 .navbar-inner {
   max-width: 72rem;
   margin: 0 auto;
-  height: 5.5rem;
+  height: 7rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,7 +59,7 @@ body {
 }
 
 .navbar-logo {
-  height: 4.5rem;
+  height: 6rem;
   width: auto;
   display: block;
   /* shift the image's darker blue toward --royal-blue (#4169e1) */
