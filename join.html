@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join | PantherWeb</title>
+  <link rel="icon" type="image/svg+xml" href="public/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sansation:wght@400;700&family=Silkscreen:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sansation:wght@400;700&family=Silkscreen:wght@400;700&display=swap" /></noscript>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <div class="content">
+      <h1 class="page-title">Join Us</h1>
+
+      <form id="join-form" class="form" novalidate>
+        <div class="form-group">
+          <label class="form-label" for="fullName">Full Name</label>
+          <input class="form-input" type="text" id="fullName" name="fullName" placeholder="Your name" />
+          <span class="form-error" id="fullName-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">Email</label>
+          <input class="form-input" type="email" id="email" name="email" placeholder="you@university.edu" />
+          <span class="form-error" id="email-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="major">Major</label>
+          <input class="form-input" type="text" id="major" name="major" placeholder="e.g. Computer Science" />
+          <span class="form-error" id="major-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="year">Year</label>
+          <select class="form-select" id="year" name="year">
+            <option value="">Select year</option>
+            <option value="Freshman">Freshman</option>
+            <option value="Sophomore">Sophomore</option>
+            <option value="Junior">Junior</option>
+            <option value="Senior">Senior</option>
+            <option value="Graduate">Graduate</option>
+          </select>
+          <span class="form-error" id="year-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="why">Why do you want to join?</label>
+          <textarea class="form-textarea" id="why" name="why" rows="4" placeholder="Tell us a bit about yourself and why you're interested in PantherWeb."></textarea>
+          <span class="form-error" id="why-error"></span>
+        </div>
+
+        <button type="submit" class="btn">Submit Application</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
